@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header,.navbar,footer>div{
+    background: #FFF9F4;
+   
+
+}
+
+.nike h1{
+    font-size: 5rem ;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+.container>h2{
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.logo{
+    width:60%;
+}
+
+
+
+/* media queries  */
+@media only screen and (max-width: 425px) {
+
+    .hero-sec{
+        flex-direction: column-reverse;
+        padding: 1rem;
+        
+    }
+    .hero-sec h1{
+        font-size: 4rem;
+    }
+    .rounded-3{
+        flex-direction: column;
+        text-align: center;
+    }
+    .container>h2{
+        text-align: center;
+       
+    }
+
+
+}
+
+
